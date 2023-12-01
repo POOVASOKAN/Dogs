@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://img.freepik.com/free-vector/flat-background-international-dog-day-celebration_23-2150563776.jpg?w=1800&t=st=1701434680~exp=1701435280~hmac=c1a710ddc4e31ca8f11aeb21e118b28814f6151f354818fe0634e427a1c2b4e4);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.title{
+ width: 700px;
+  height: auto;
+  min-height: 90px;
+  padding: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+color: #fff;
+text-align: center;
+margin: auto;
+}
+.btn{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    padding: 15px;
+    font-size: medium;
+    margin: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 25px;
+border: 1px solid #fff;
+background-color: transparent;
+color: #fff;
+cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    border-radius: 1px solid black;
+    color: black;
+
+}
+
+#dogImage {
+    max-width: 700px;
+    height: 200px;
+    border-radius: 10px;  
+}
+
